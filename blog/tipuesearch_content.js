@@ -1,0 +1,1 @@
+var tipuesearch = {"pages":[{"title":"About","url":"./pages/about/","text":"2016Fall 修課成員網誌","tags":"misc"},{"title":"Scrum-1 的 2016Fall CP 課程網誌","url":"./scrum-1-de-2016fall-cp-ke-cheng-wang-zhi.html","text":"這個系統共集結了 reveal.js 網際簡報與 pelican 靜態網誌系統. 網誌 Category 網誌 Tags reveal.js 使用導引","tags":"Misc"}]};
