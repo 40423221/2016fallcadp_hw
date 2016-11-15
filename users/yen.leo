@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
-<?xml-stylesheet ekr_test ?>
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
@@ -10,13 +9,13 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20151212173315.1"><vh>@settings</vh>
+<v t="leo.20151212173315.1" a="E"><vh>@settings</vh>
 <v t="leo.20151212173315.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="amd.20160921213353.1"><vh>2016fall 簡報與網誌樣板系統</vh></v>
 <v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
-<v t="leo.20151213173830.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
@@ -53,15 +52,25 @@
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
-<v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
-<v t="amd.20160727114506.1" a="E"><vh>201609</vh>
-<v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
+<v t="amd.20160106093454.1"><vh>40423221所寫的網誌文章</vh></v>
+<v t="leo.20161115172800.1"><vh>201609</vh>
+<v t="leo.20161115172800.2"><vh>@edit other.md</vh></v>
+<v t="leo.20161115172800.3"><vh>@edit 20160916.md</vh></v>
+<v t="leo.20161115172800.4"><vh>@edit 20160923.md</vh></v>
+<v t="leo.20161115172800.5"><vh>@edit 20160930.md</vh></v>
+<v t="leo.20161115172800.6"><vh>@edit 20161007.md</vh></v>
+<v t="leo.20161115172800.7"><vh>@edit 20161014.md</vh></v>
+<v t="leo.20161115172800.8"><vh>@edit 20161021.md</vh></v>
+<v t="leo.20161115172800.9"><vh>@edit 20161028.md</vh></v>
+<v t="leo.20161115172800.10"><vh>@edit 20161104.md</vh></v>
+<v t="leo.20161115172800.11"><vh>@edit 20161111.md</vh></v>
+<v t="leo.20161115172800.12"><vh>@edit 20161118.md</vh></v>
 </v>
 </v>
-</v>
-<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
-<v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
+<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094829.1"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
+<v t="leo.20161115225552.1"><vh>@edit ../README.md</vh></v>
 </v>
 </v>
 </vnodes>
@@ -82,7 +91,7 @@
 Title: 文章標題 (請注意各文章的標題不可相同, 比較保險的作法是冠上四個學號尾碼)
 Category: 類別
 Tags: 標籤
-Author: yen
+Author: 40423221
 
 這裡放入文章摘要
 
@@ -99,7 +108,6 @@ print("hello")
 <t tx="amd.20160106094754.1"></t>
 <t tx="amd.20160106094829.1"></t>
 <t tx="amd.20160106095324.1"></t>
-<t tx="amd.20160727114506.1"></t>
 <t tx="amd.20160921213353.1"></t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
@@ -207,5 +215,6 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161115172800.1"></t>
 </tnodes>
 </leo_file>
