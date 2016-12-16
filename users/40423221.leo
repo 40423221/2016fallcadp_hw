@@ -54,6 +54,8 @@
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1"><vh>40423221所寫的網誌文章</vh></v>
 <v t="leo.20161115172800.1" a="E"><vh>201609</vh>
+<v t="leo.20161216110948.1"><vh>@edit SolveSpace.md</vh></v>
+<v t="leo.20161216111209.1"><vh>@edit Onshape.md</vh></v>
 <v t="leo.20161115172800.2"><vh>@edit other.md</vh></v>
 <v t="leo.20161115172800.3"><vh>@edit 20160916.md</vh></v>
 <v t="leo.20161115172800.4"><vh>@edit 20160923.md</vh></v>
