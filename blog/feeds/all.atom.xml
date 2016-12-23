@@ -1,7 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-09-02T12:00:00+08:00</updated><entry><title>2016Fall 簡報與網誌系統</title><link href="./2016fall-jian-bao-yu-wang-zhi-xi-tong.html" rel="alternate"></link><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-jian-bao-yu-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;這個系統共集結了 reveal.js 網際簡報與 pelican 靜態網誌系統.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-12-16T12:00:00+08:00</updated><entry><title>20161216W14</title><link href="./20161216w14.html" rel="alternate"></link><published>2016-12-16T12:00:00+08:00</published><updated>2016-12-16T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-12-16:./20161216w14.html</id><summary type="html">&lt;h2&gt;&lt;a href="https://github.com/40423226/2016fallcadp_hw/raw/ghpages/data/solvespace/delta_printer_v2.7z"&gt;下載delta_printer_v2&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="../data/solvespace/delta_printer_v2/delta_printer.png" width="800" /&gt;&lt;/p&gt;</summary><category term="上課內容"></category><category term="解決問題"></category><category term="SolveSpace"></category></entry><entry><title>20161209W13</title><link href="./20161209w13.html" rel="alternate"></link><published>2016-12-09T12:00:00+08:00</published><updated>2016-12-09T12:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2016-12-09:./20161209w13.html</id><summary type="html">&lt;h2&gt;用SolveSpace把檔案存成html檔,並且更改成http設定,利用嵌入網頁的指令,把html檔案放進網誌裡面&lt;/h2&gt;
+
+&lt;iframe src="網址" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;遠端網誌無法更新&lt;/h2&gt;
+
+&lt;p&gt;近端利用瀏覽器檢查網誌是正常,但是遠端的網誌卻沒有更新,發現推上去的資料出現問題,GitHub還親自寄信給我&lt;/p&gt;
+
+&lt;pre&gt;The page build failed with the following error:
+
+The tag `notebook` on line 13 in `plugin/liquid_tags/test_data/content/test-ipython-notebook-nbformat3.md` is not a recognized Liquid tag. For more information, see https://help.github.com/articles/page-build-failed-unknown-tag-error.
+
+For information on troubleshooting Jekyll see:
+
+  https://help.github.com/articles/troubleshooting-jekyll-builds
+
+If you have any questions you can contact us by replying to this email.&lt;/pre&gt;
+
+&lt;p&gt;從網頁來看我多了一個test_data的資料夾,於是進去到相對的目錄,利用指令把它刪掉就可以順利推到遠端,進行網頁的更新&lt;/p&gt;
+
+&lt;pre&gt;git rm -r -f plugin/liquid_tags/test_data&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src="../data/image/bug.png" width="800" /&gt;&lt;/p&gt;</summary><category term="上課內容"></category><category term="解決問題"></category><category term="SolveSpace"></category></entry><entry><title>20161202W12</title><link href="./20161202w12.html" rel="alternate"></link><published>2016-12-02T12:00:00+08:00</published><updated>2016-12-02T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-12-02:./20161202w12.html</id><summary type="html">&lt;h2&gt;Cube&lt;/h2&gt;
+
+&lt;iframe src="網址" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src="../data/solvespace/cube.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Strut&lt;/h2&gt;
+
+&lt;iframe src="網址" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src="../data/solvespace/strut.html" width="800" height="480"&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;組合&lt;/h2&gt;
+
+&lt;iframe src="網址" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src="../data/solvespace/combination.html" width="800" height="480"&gt;&lt;/iframe&gt;</summary><category term="上課內容"></category><category term="SolveSpace"></category></entry><entry><title>20161125W11</title><link href="./20161125w11.html" rel="alternate"></link><published>2016-11-25T12:00:00+08:00</published><updated>2016-11-25T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-11-25:./20161125w11.html</id><summary type="html">&lt;h2&gt;虎科大36週年慶&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="../data/image/nfu_36th.png" width="800" /&gt;&lt;/p&gt;</summary><category term="虎科大36週年校慶"></category></entry><entry><title>20161118W10</title><link href="./20161118w10.html" rel="alternate"></link><published>2016-11-18T12:00:00+08:00</published><updated>2016-11-18T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-11-18:./20161118w10.html</id><summary type="html"></summary><category term="上課內容"></category></entry><entry><title>20161111W9</title><link href="./20161111w9.html" rel="alternate"></link><published>2016-11-11T12:00:00+08:00</published><updated>2016-11-11T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-11-11:./20161111w9.html</id><summary type="html">&lt;p&gt;&lt;a href="https://ethercalc.org/sde741ot61o4"&gt;自評系統&lt;/a&gt;&lt;/p&gt;</summary><category term="上課內容"></category></entry><entry><title>20161104W8</title><link href="./20161104w8.html" rel="alternate"></link><published>2016-11-04T12:00:00+08:00</published><updated>2016-11-04T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-11-04:./20161104w8.html</id><summary type="html">&lt;p&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;期中課程評量系統&lt;/a&gt;&lt;/p&gt;</summary><category term="上課內容"></category></entry><entry><title>20161028W7</title><link href="./20161028w7.html" rel="alternate"></link><published>2016-10-28T12:00:00+08:00</published><updated>2016-10-28T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-10-28:./20161028w7.html</id><summary type="html">&lt;p&gt;使用Trace Point計算路徑&lt;p&gt;</summary><category term="上課內容"></category></entry><entry><title>20161021W6</title><link href="./20161021w6.html" rel="alternate"></link><published>2016-10-21T12:00:00+08:00</published><updated>2016-10-21T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-10-21:./20161021w6.html</id><summary type="html">&lt;h2&gt;解決子模組在對應上的問題&lt;/h2&gt;</summary><category term="上課內容"></category></entry><entry><title>20161014W5</title><link href="./20161014w5.html" rel="alternate"></link><published>2016-10-14T12:00:00+08:00</published><updated>2016-10-14T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-10-14:./20161014w5.html</id><summary type="html">&lt;p&gt;初步認識SolveSpace&lt;p&gt;</summary><category term="上課內容"></category></entry><entry><title>20161007W4</title><link href="./20161007w4.html" rel="alternate"></link><published>2016-10-07T12:00:00+08:00</published><updated>2016-10-07T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-10-07:./20161007w4.html</id><summary type="html">&lt;p&gt;設定使用者資料,讓可攜程式更方便&lt;/p&gt;
+
+&lt;p&gt;用2016fallcadp_bg6的名稱,建立小組倉儲&lt;/p&gt;</summary><category term="上課內容"></category></entry><entry><title>20160930W3</title><link href="./20160930w3.html" rel="alternate"></link><published>2016-09-30T12:00:00+08:00</published><updated>2016-09-30T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-09-30:./20160930w3.html</id><summary type="html">&lt;p&gt;複製網誌和簡報的設定檔到2016fallcadp_hw的倉儲&lt;/p&gt;
+
+&lt;p&gt;更改2016fallcadp_hw的README.md檔案&lt;/p&gt;
+
+&lt;pre&gt;簡報: https://40423221.github.io/2016fallcadp_hw
+網址: 
+https://40423221.github.io/2016fallcadp_hw/blog/&lt;/pre&gt;
+
+&lt;p&gt;.github.io/2016fallcadp_hw/blog/&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;解決近端設定代理主機的問題&lt;/h2&gt;
+
+&lt;p&gt;每次上課須執行以下指令&lt;/p&gt;
+
+&lt;pre&gt;
+git config --global http.proxy http://proxy.mde.tw:3128
+git config --global https.proxy http://proxy.mde.tw:3128
+&lt;/pre&gt;
+
+&lt;p&gt;輸入完之後出現了這個問題&lt;/p&gt;
+
+&lt;pre&gt;
+warning: http.proxy has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change http.proxy.
+&lt;/pre&gt;
+
+&lt;p&gt;發現在Y:\home的.gitconfig檔案出現問題,從SciTE打開.gitconfig&lt;/p&gt;
+
+&lt;pre&gt;
+[http]
+    proxy = 
+    proxy = 
+    proxy = 
+    proxy = http://proxy.mde.tw:3128
+[https]
+    proxy = http://proxy.mde.tw:3128
+[user]
+    email = 40423221@gm.nfu.edu.tw
+    name = 40423221
+&lt;/pre&gt;
+
+&lt;p&gt;更正後儲存
+&lt;pre&gt;
+[http]
+    proxy = http://proxy.mde.tw:3128
+[https]
+    proxy = http://proxy.mde.tw:3128
+[user]
+    email = 40423221@gm.nfu.edu.tw
+    name = 40423221
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="上課內容"></category></entry><entry><title>20160923W2</title><link href="./20160923w2.html" rel="alternate"></link><published>2016-09-23T12:00:00+08:00</published><updated>2016-09-23T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-09-23:./20160923w2.html</id><summary type="html">&lt;p&gt;建立40423221.github.io 名稱的倉儲&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe
+src="網址" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;建立2016fallcadp_hw名稱的倉儲&lt;/p&gt;
+
+&lt;p&gt;把分支的預設值改為gh-pages&lt;/p&gt;
+
+&lt;iframe src="網址" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="上課內容"></category></entry><entry><title>20160916W1</title><link href="./20160916w1.html" rel="alternate"></link><published>2016-09-16T12:00:00+08:00</published><updated>2016-09-16T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-09-16:./20160916w1.html</id><summary type="html">&lt;h2&gt;中秋連假&lt;/h2&gt;
+
+&lt;p&gt;切換到2016fallcadp_hw的分支&lt;/p&gt;
+
+&lt;pre&gt;cd &lt;u&gt;分支名稱&lt;/u&gt;
+(例如:cd 2016fallcadp_hw)&lt;/pre&gt;
+
+&lt;p&gt;回到上一個分支&lt;/p&gt;
+
+&lt;pre&gt;cd ..&lt;/pre&gt;
+
+&lt;p&gt;會新建一個40423221的資料夾,並把遠端資料存在裡面&lt;/p&gt;
+
+&lt;pre&gt;git clone &lt;u&gt;倉儲網址&lt;/u&gt; &lt;u&gt;分支名稱&lt;/u&gt;
+(例如:git clone https://github.com/40423221/2016fallcadp_hw.git )&lt;/pre&gt;
+
+&lt;p&gt;檢查分支&lt;/p&gt;
+
+&lt;pre&gt;git branch&lt;/pre&gt;
+
+&lt;p&gt;建立一個gh-pages名稱的分支&lt;/p&gt;
+
+&lt;pre&gt;git branch &lt;u&gt;分支名稱&lt;/u&gt;
+(例如:git branch gh-pages)&lt;/pre&gt;
+
+&lt;p&gt;切換到指定的gh-pages分支&lt;/p&gt;
+
+&lt;pre&gt;git checkout &lt;u&gt;分支名稱&lt;/u&gt;
+(例如:git checkout gh-pages)&lt;/pre&gt;
+
+&lt;pre&gt;git add -A&lt;/pre&gt;
+
+&lt;pre&gt;git commit -m"&lt;u&gt;改版內容&lt;/u&gt;"
+(例如:git commit -m"add all")&lt;/pre&gt;
+
+&lt;p&gt;推送進端資料到遠端,並且指定推送到gh-pages的分支&lt;/p&gt;
+
+&lt;pre&gt;git push origin &lt;u&gt;分支名稱&lt;/u&gt;
+(例如:git push origin gh-pages)&lt;/pre&gt;
+
+&lt;pre&gt;git pull&lt;/pre&gt;
+
+&lt;p&gt;收尋該檔案名稱,並逐一確認是否刪除&lt;/p&gt;
+
+&lt;pre&gt;git rm &lt;u&gt;檔案名稱&lt;/u&gt;&lt;/pre&gt;
+
+&lt;p&gt;回到之前072e3af的版本資料&lt;/p&gt;
+
+&lt;pre&gt;git reset --hard &lt;u&gt;版本代碼&lt;/u&gt;
+(例如:git reset --hard 072e3af)&lt;/pre&gt;
+
+&lt;p&gt;直接刪除所有該檔案名稱的檔案&lt;/p&gt;
+
+&lt;pre&gt;git rm &lt;u&gt;檔案名稱&lt;/u&gt; -f&lt;/pre&gt;</summary><category term="上課內容"></category></entry><entry><title>2016Fall 簡報與網誌系統</title><link href="./2016fall-jian-bao-yu-wang-zhi-xi-tong.html" rel="alternate"></link><published>2016-09-02T12:00:00+08:00</published><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-jian-bao-yu-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;這個系統共集結了 reveal.js 網際簡報與 pelican 靜態網誌系統.&lt;/p&gt;
 
 
 &lt;p&gt;網誌 Category&lt;/p&gt;
 &lt;p&gt;網誌 Tags&lt;/p&gt;
-&lt;p&gt;reveal.js 使用導引&lt;/p&gt;</summary><category term="使用導引"></category></entry></feed>
+&lt;p&gt;reveal.js 使用導引&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>other</title><link href="./other.html" rel="alternate"></link><published>2016-09-02T12:00:00+08:00</published><updated>2016-09-02T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-09-02:./other.html</id><summary type="html">&lt;h2&gt;使用環境設定&lt;/h2&gt;
+
+&lt;pre&gt;
+git config --global user.email "40423221@gm.nfu.edu.tw"
+git config --global user.name "40423221"&lt;/pre&gt;
+
+&lt;p&gt;git add -A
+git commit -m "add all"
+git pull origin gh-pages
+pit push origin gh-pages&lt;/p&gt;
+&lt;h2&gt;子模組&lt;/h2&gt;
+
+&lt;p&gt;用40423221的名稱把https://github.com/40423221/2016fallcadp_hw的倉儲加入為子模組&lt;/p&gt;
+
+&lt;pre&gt;git submodule add -b gh-pages &lt;u&gt;子模組網址&lt;/u&gt; &lt;u&gt;子模組名稱&lt;/u&gt;
+(例如:git submodule add -b gh-pages https://github.com/40423221/2016fallcadp_hw 40423221)&lt;/pre&gt;
+
+&lt;p&gt;抓對應子模組的版本&lt;/p&gt;
+
+&lt;pre&gt;git submodule update --init --recursive&lt;/pre&gt;
+
+&lt;p&gt;更新子模組的資料,甚至更新子模組裡子模組的資料&lt;/p&gt;
+
+&lt;pre&gt;git submodule foreach "(git checkout gh-pages; git pull)&amp;"&lt;/pre&gt;
+
+&lt;h2&gt;HTML文字語法&lt;/h2&gt;
+
+&lt;h1&gt;h1&lt;/h1&gt;
+
+&lt;h2&gt;h2&lt;/h2&gt;
+
+&lt;h3&gt;h3&lt;/h3&gt;
+
+&lt;h4&gt;h4&lt;/h4&gt;
+
+&lt;h5&gt;h5&lt;/h5&gt;
+
+&lt;h6&gt;h6&lt;/h6&gt;
+
+&lt;pre&gt;
+&amp;lt;h1&gt;h1&amp;lt;/h1&gt;
+&amp;lt;h2&gt;h2&amp;lt;/h2&gt;
+&amp;lt;h3&gt;h3&amp;lt;/h3&gt;
+&amp;lt;h4&gt;h4&amp;lt;/h4&gt;
+&amp;lt;h5&gt;h5&amp;lt;/h5&gt;
+&amp;lt;h6&gt;h6&amp;lt;/h6&gt;
+&lt;/pre&gt;
+
+&lt;p align="center"&gt;置中&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;p align="center"&gt;置中&amp;lt;/p&gt;&lt;/pre&gt;
+
+&lt;p align="right"&gt;靠右&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;p align="right"&gt;靠右&amp;lt;/p&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;b&gt;粗體&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;b&gt;粗體&amp;lt;/b&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;i&gt;斜體&lt;/i&gt;&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;i&gt;斜體&amp;lt;/i&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;u&gt;底線&lt;/u&gt;&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;u&gt;底線&amp;lt;/u&gt;&lt;/pre&gt;</summary><category term="設定"></category></entry><entry><title>Onshape</title><link href="./onshape.html" rel="alternate"></link><published>1111-02-22T22:22:00+08:06</published><updated>1111-02-22T22:22:00+08:06</updated><author><name>40423221</name></author><id>tag:,1111-02-22:./onshape.html</id><summary type="html">&lt;h2&gt;&lt;a href="https://www.onshape.com/"&gt;Onshape&lt;/a&gt;&lt;/h2&gt;</summary><category term="Onshape"></category></entry><entry><title>SolveSpace</title><link href="./solvespace.html" rel="alternate"></link><published>1111-02-22T22:22:00+08:06</published><updated>1111-02-22T22:22:00+08:06</updated><author><name>40423221</name></author><id>tag:,1111-02-22:./solvespace.html</id><summary type="html">&lt;h2&gt;&lt;a href="http://solvespace.com/"&gt;SolveSpace&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2&gt;SolveSpace 2D&lt;/h2&gt;
+
+&lt;iframe src="網址" width="640" height="428" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;2D成品圖&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/image/solvespace 2D.png" width="800" /&gt;&lt;/p&gt;
+&lt;h2&gt;SolveSpace 3D&lt;/h2&gt;
+
+&lt;iframe src="網址" width="640" height="428" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;3D成品圖&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/image/solvespace 3D.png" width="800" /&gt;&lt;/p&gt;
+&lt;h2&gt;用SolveSpace把檔案存成html檔,並且更改成http設定,利用嵌入網頁的指令,把html檔案放進網誌裡面&lt;/h2&gt;
+
+&lt;pre&gt;&amp;lt;iframe src="&lt;u&gt;檔案的相對位置&lt;/u&gt;" width="800" height="600"&gt;&amp;lt;/iframe&gt;&lt;/pre&gt;
+
+&lt;iframe src="網址" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="SolveSpace"></category></entry></feed>

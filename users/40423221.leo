@@ -14,8 +14,8 @@
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="amd.20160921213353.1"><vh>2016fall 簡報與網誌樣板系統</vh></v>
-<v t="amd.20160106095324.1"><vh>@path ./../</vh>
-<v t="leo.20151213173830.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
+<v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
 <v t="amd.20151215180106.1"><vh>設定與開發</vh>
@@ -70,13 +70,15 @@
 <v t="leo.20161216113004.1"><vh>@edit 20161125.md</vh></v>
 <v t="leo.20161216113046.1"><vh>@edit 20161202.md</vh></v>
 <v t="leo.20161216113056.1"><vh>@edit 20161209.md</vh></v>
+<v t="leo.20161223105140.1"><vh>@edit 20161216.md</vh></v>
 </v>
 </v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 <v t="leo.20161115225552.1"><vh>@edit ../README.md</vh></v>
 </v>
+<v t="leo.20161223105431.1"><vh>@edit ../README.md</vh></v>
 </v>
 </vnodes>
 <tnodes>
