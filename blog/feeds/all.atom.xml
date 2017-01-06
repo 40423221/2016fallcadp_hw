@@ -3,7 +3,7 @@
 
 &lt;p&gt;&lt;img src="../data/solvespace/delta_printer_v2/delta_printer.png" width="800" /&gt;&lt;/p&gt;</summary><category term="上課內容"></category><category term="解決問題"></category><category term="SolveSpace"></category></entry><entry><title>20161209W13</title><link href="./20161209w13.html" rel="alternate"></link><published>2016-12-09T12:00:00+08:00</published><updated>2016-12-09T12:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2016-12-09:./20161209w13.html</id><summary type="html">&lt;h2&gt;用SolveSpace把檔案存成html檔,並且更改成http設定,利用嵌入網頁的指令,把html檔案放進網誌裡面&lt;/h2&gt;
 
-&lt;iframe src="網址" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="./../data/solvespace/model-ok.html" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;h2&gt;遠端網誌無法更新&lt;/h2&gt;
 
@@ -15,15 +15,11 @@ The tag `notebook` on line 13 in `plugin/liquid_tags/test_data/content/test-ipyt
 
 For information on troubleshooting Jekyll see:
 
-  https://help.github.com/articles/troubleshooting-jekyll-builds
-
 If you have any questions you can contact us by replying to this email.&lt;/pre&gt;
 
 &lt;p&gt;從網頁來看我多了一個test_data的資料夾,於是進去到相對的目錄,利用指令把它刪掉就可以順利推到遠端,進行網頁的更新&lt;/p&gt;
 
-&lt;pre&gt;git rm -r -f plugin/liquid_tags/test_data&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src="../data/image/bug.png" width="800" /&gt;&lt;/p&gt;</summary><category term="上課內容"></category><category term="解決問題"></category><category term="SolveSpace"></category></entry><entry><title>20161202W12</title><link href="./20161202w12.html" rel="alternate"></link><published>2016-12-02T12:00:00+08:00</published><updated>2016-12-02T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-12-02:./20161202w12.html</id><summary type="html">&lt;h2&gt;Cube&lt;/h2&gt;
+&lt;pre&gt;git rm -r -f plugin/liquid_tags/test_data&lt;/pre&gt;</summary><category term="上課內容"></category><category term="解決問題"></category><category term="SolveSpace"></category></entry><entry><title>20161202W12</title><link href="./20161202w12.html" rel="alternate"></link><published>2016-12-02T12:00:00+08:00</published><updated>2016-12-02T12:00:00+08:00</updated><author><name>40423221</name></author><id>tag:,2016-12-02:./20161202w12.html</id><summary type="html">&lt;h2&gt;Cube&lt;/h2&gt;
 
 &lt;iframe src="網址" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
