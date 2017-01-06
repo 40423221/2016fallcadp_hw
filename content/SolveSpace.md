@@ -11,9 +11,9 @@ Author: 40423221
 <img src="../data/solvespace 2D.png" width="800" />
 
 <h2>SolveSpace 3D</h2>
-<iframe src="網址" width="640" height="428" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="file:///Y:/tmp/hw/data/solvespace/model-ok.html" width="640" height="428" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p>3D成品圖</p>
-<img src="../data/solvespace/png model-ok.png" width="800" />
+<img src="file:///Y:/tmp/hw/data/solvespace/model-ok.html" width="800" />
 
 <h2>用SolveSpace把檔案存成html檔,並且更改成http設定,利用嵌入網頁的指令,把html檔案放進網誌裡面</h2>
 <pre>&lt;iframe src="<u>檔案的相對位置</u>" width="800" height="600">&lt;/iframe></pre>
