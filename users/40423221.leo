@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20151212173315.1" a="E"><vh>@settings</vh>
+<v t="leo.20151212173315.1"><vh>@settings</vh>
 <v t="leo.20151212173315.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -19,7 +19,7 @@
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
-<v t="leo.20170113015650.1"><vh>@edit index.html</vh></v>
+<v t="leo.20170113021336.1"><vh>@edit index.html</vh></v>
 <v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
@@ -51,9 +51,9 @@
 </v>
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
-<v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
+<v t="amd.20151215170031.1"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1"><vh>40423221所寫的網誌文章</vh></v>
-<v t="leo.20161115172800.1" a="E"><vh>201609</vh>
+<v t="leo.20161115172800.1"><vh>201609</vh>
 <v t="leo.20161216110948.1"><vh>@edit SolveSpace.md</vh></v>
 <v t="leo.20161216111209.1"><vh>@edit Onshape.md</vh></v>
 <v t="leo.20161115172800.2"><vh>@edit other.md</vh></v>
