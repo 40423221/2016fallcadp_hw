@@ -71,12 +71,12 @@
 <v t="leo.20161216113046.1"><vh>@edit 20161202.md</vh></v>
 <v t="leo.20161216113056.1"><vh>@edit 20161209.md</vh></v>
 <v t="leo.20161223105140.1"><vh>@edit 20161216.md</vh></v>
-<v t="leo.20170113093245.1" a="M"><vh>@edit sum up.md</vh></v>
-<v t="leo.20170113101044.1" a="M"><vh>@edit 心得.md</vh></v>
+<v t="leo.20170113103514.1"><vh>@edit sum.md</vh></v>
+<v t="leo.20170113103800.1"><vh>@edit Experience.md</vh></v>
 </v>
 </v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
-<v t="amd.20160106094829.1"><vh>yen 所寫的 pages 文章</vh>
+<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 <v t="leo.20161115225552.1"><vh>@edit ../README.md</vh></v>
 </v>
