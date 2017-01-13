@@ -71,7 +71,8 @@
 <v t="leo.20161216113046.1"><vh>@edit 20161202.md</vh></v>
 <v t="leo.20161216113056.1"><vh>@edit 20161209.md</vh></v>
 <v t="leo.20161223105140.1"><vh>@edit 20161216.md</vh></v>
-<v t="leo.20170113093245.1"><vh>@edit sum up.md</vh></v>
+<v t="leo.20170113093245.1" a="M"><vh>@edit sum up.md</vh></v>
+<v t="leo.20170113101044.1" a="M"><vh>@edit 心得.md</vh></v>
 </v>
 </v>
 <v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
